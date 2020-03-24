@@ -14,22 +14,26 @@ export default class NavigationComponent extends Component {
               Home
             </NavLink>
           </div>
+
           <div className="nav-link-wrapper">
             <NavLink exact to="/about-me" activeClassName="nav-link-active">
               About
             </NavLink>
           </div>
+
           <div className="nav-link-wrapper">
             <NavLink exact to="/contact-me" activeClassName="nav-link-active">
               Contact
             </NavLink>
           </div>
+
           <div className="nav-link-wrapper">
             <NavLink exact to="/blog" activeClassName="nav-link-active">
               Blog
             </NavLink>
           </div>
         </div>
+
         <div className="right-side">ANTWAUN JOHNSON</div>
       </div>
     );
