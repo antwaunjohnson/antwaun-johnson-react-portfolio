@@ -4,11 +4,21 @@ import {
   faSignOutAlt,
   faEdit,
   faSpinner,
-  faPlusCircle
+  faPlusCircle,
+  faEnvelope,
+  faMapMarkedAlt
 } from "@fortawesome/free-solid-svg-icons";
 
 const Icons = () => {
-  return library.add(faTrash, faSignOutAlt, faEdit, faSpinner, faPlusCircle);
+  return library.add(
+    faTrash,
+    faSignOutAlt,
+    faEdit,
+    faSpinner,
+    faPlusCircle,
+    faEnvelope,
+    faMapMarkedAlt
+  );
 };
 
 export default Icons;
